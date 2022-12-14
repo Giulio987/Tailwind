@@ -2,8 +2,11 @@
 const input = document.getElementById('link-input')
 const linkForm = document.getElementById('link-form')
 const errMsg = document.getElementById('err-msg')
+const btn = document.getElementById('menu-btn');
+const menu =document.getElementById('menu');
 
 linkForm.addEventListener('submit', formSubmit)
+btn.addEventListener('click', navToggle)
 
 // Toggle Mobile Menu
 function navToggle() {

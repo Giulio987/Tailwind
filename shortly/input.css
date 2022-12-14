@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* #cta {
+#cta {
   background-image: url('../images/bg-boost-desktop.svg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,7 +12,6 @@
   filter: invert(79%) sepia(61%) saturate(464%) hue-rotate(130deg)
     brightness(89%) contrast(85%);
 }
-
 
 .hamburger {
   cursor: pointer;
@@ -60,4 +59,3 @@
 .open .hamburger-bottom {
   transform: rotate(-45deg) translateY(6px) translateX(-6px);
 }
- */
